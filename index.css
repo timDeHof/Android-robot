@@ -1,0 +1,92 @@
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+  div div {
+    background: #a4ca39;
+    position: relative;
+  }
+  /* Styling the whole android */
+  .android{
+    width: 340px;
+    height: 400px;
+  }
+  
+  .head{
+    width: 200px;
+    height: 100px;
+    top: 32px; /* make space for the antennas */
+    border-radius: 220px 220px 0 0; /* achieves the semi-circular shape */
+  }
+  .left-eye, .right-eye{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: absolute; /* This absolute position property allows us to move it to the position that we want to.  */ 
+    top: 42px;
+    border-radius: 100%;
+  }
+  .left-eye{
+    left: 50px;
+  }
+  .right-eye{
+    right: 50px;
+  }
+  .left-antenna, .right-antenna{
+    width: 6px;
+    height: 50px;
+    position: absolute;
+    top: -34px;
+    border-radius: 3px;
+  }
+  
+  .left-antenna{
+    left: 50px;
+    transform: rotate(-30deg);
+  }
+  
+  .right-antenna{
+    right: 50px;
+    transform: rotate(30deg);
+  }
+  
+  .body{
+    width: 200px;
+    height: 184px;
+    top: 42px;
+    border-radius: 0 0 25px 25px;
+  }
+  
+  .left-arm, .right-arm, .left-leg, .right-leg{
+    width: 50px;
+    position: absolute;
+  }
+  
+  .left-arm, .right-arm{
+    height: 150px;
+    border-radius: 25px;
+  }
+  
+  .left-arm{
+    left: -58px;
+  }
+  .right-arm{
+    right: -58px;
+  }
+  
+  .left-leg, .right-leg{
+    height: 100px;
+    border-radius: 0 0 25px 25px;
+    top: 192px;
+  }
+  
+  .left-leg{
+    left: 40px;
+  }
+  
+  .right-leg{
+    right: 40px;
+  }
